@@ -47,11 +47,11 @@ h3{font-size:1.12rem;line-height:1.3}
 .screens-band{padding:88px 0 100px;background:#10151a;border-block:1px solid var(--line)}
 .section-heading{display:flex;justify-content:space-between;align-items:end;gap:32px;margin-bottom:36px}
 .section-heading>p{max-width:28ch;text-align:right}
-.screen-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px}
-figure{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:7px;overflow:hidden}
-figure img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;background:#080a0e}
+.screen-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+figure{min-width:0;margin:0;background:var(--surface);border:1px solid var(--line);border-radius:7px;overflow:hidden}
+figure img{width:100%;height:680px;object-fit:contain;background:#080a0e}
 figure.mac-screen{grid-column:1/-1}
-figure.mac-screen img{aspect-ratio:16/10;object-fit:contain}
+figure.mac-screen img{height:auto;aspect-ratio:16/10}
 figcaption{padding:14px 16px;color:#dceaf0;font-weight:700;border-top:1px solid var(--line)}
 .privacy-note{display:grid;grid-template-columns:1fr 1fr;gap:70px}
 .privacy-note p{margin:0 0 20px}
@@ -73,4 +73,4 @@ footer a{color:var(--muted);text-decoration:none}
 .faq h3{margin-bottom:8px}
 .faq p{margin:0}
 @media(max-width:760px){.header-inner{align-items:start;flex-direction:column;padding-block:13px;gap:9px}nav{width:100%;gap:17px}.intro{grid-template-columns:1fr;padding-top:48px;gap:37px}.intro-preview{width:min(400px,100%);height:480px;min-height:0}.feature-grid,.steps,.screen-grid,.privacy-note{grid-template-columns:1fr}.feature-grid article,.feature-grid article+article{border-left:0;border-top:1px solid var(--line);padding:22px 0}.section{padding-block:64px}.steps{gap:27px;margin-top:33px}.screens-band{padding-block:64px}.section-heading{display:block}.section-heading>p{text-align:left;margin-top:16px}.screen-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.screen-grid figure:first-child{grid-column:1/-1}.privacy-note{gap:24px}}
-@media(max-width:480px){.wrap{width:calc(100% - 32px)}.screen-grid{grid-template-columns:1fr}.screen-grid figure:first-child{grid-column:auto}figure img{aspect-ratio:4/4}.mac-screen img{aspect-ratio:16/10}.intro-preview{height:430px}nav{gap:13px}nav a{font-size:.84rem}}
+@media(max-width:480px){.wrap{width:calc(100% - 32px)}.screen-grid{grid-template-columns:1fr}.screen-grid figure:first-child{grid-column:auto}figure img{height:580px}figure.mac-screen img{height:auto;aspect-ratio:16/10}.intro-preview{height:430px}nav{gap:13px}nav a{font-size:.84rem}}
