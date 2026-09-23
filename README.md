@@ -13,4 +13,4 @@ Before submission, verify the resulting HTTPS URLs for `/support.html` and
 after configuring a custom domain. Replace representative screenshots with
 final release captures and add the App Store link once the listing is live.
 
-The screenshots show fictional test incidents from a pre-release build.
+The screenshots show fictional test incidents from a pre-release build. The featured images were refreshed from iPhone and Mac captures on September 22, 2026. App Store upload originals remain in the app repository under `AppStoreAssets/screenshots`.
