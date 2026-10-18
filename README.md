@@ -11,6 +11,7 @@ GitHub Settings > Pages, select Deploy from a branch, `main`, `/ (root)`.
 Before submission, verify the resulting HTTPS URLs for `/support.html` and
 `/privacy.html`, then enter them in App Store Connect. Add a `CNAME` file only
 after configuring a custom domain. Replace representative screenshots with
-final release captures and add the App Store link once the listing is live.
+final release captures. The live Mac App Store listing is linked from the homepage:
+https://apps.apple.com/us/app/cybersecurity-incident-tracker/id6794006064.
 
 The screenshots show fictional test incidents from a pre-release build. The featured images were refreshed from iPhone and Mac captures on September 22, 2026. App Store upload originals remain in the app repository under `AppStoreAssets/screenshots`.
